@@ -47,4 +47,4 @@
 ## 9.Git 재배포
 - git add.
 - git comit -m '스프링 레거시 테스트 완료2'
-- git push origin master
+- git push origin master 

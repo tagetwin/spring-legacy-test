@@ -27,6 +27,6 @@ public class JsonController {
 	public String jsonHome(@PathVariable int num){
 		
 		System.out.println("num :" + num);
-		return "jsonHome";
+		return "jsonHome"; 
 	}
 }
