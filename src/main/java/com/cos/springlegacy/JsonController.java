@@ -18,6 +18,7 @@ public class JsonController {
 	public @ResponseBody RequestJsonDto jsonHome(@RequestBody RequestJsonDto requestJsonDto) { // {제이슨}
 		
 		System.out.println(requestJsonDto.getId());
+		System.out.println(requestJsonDto.getPw());
 		
 		return requestJsonDto;
 	}
